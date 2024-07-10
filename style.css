@@ -1,0 +1,296 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+.wrapper{
+
+      overflow-x: hidden;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+  } */
+  
+  .header-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: linear-gradient(to right, #ff7e5f, #feb47b);
+      padding: 10px 20px;
+      color: white;
+  }
+  
+  .social-icons a {
+      margin-right: 10px;
+  }
+  
+  .social-icons img {
+      width: 25px;
+      height: 25px;
+  }
+  
+  .contact-info {
+      display: flex;
+      gap: 20px;
+      font-size: 14px;
+  }
+  
+  .request-button {
+      background: #ff7e5f;
+      border: 2px solid white;
+      border-radius: 20px;
+      padding: 10px 20px;
+      color: white;
+      font-size: 14px;
+      cursor: pointer;
+      transition: background 0.3s, border 0.3s;
+  }
+  
+  .request-button:hover {
+      background: white;
+      color: #ff7e5f;
+      border: 2px solid #ff7e5f;
+  }
+  
+  @media (max-width: 768px) {
+      .header-bar {
+          flex-direction: column;
+          text-align: center;
+      }
+  
+      .contact-info {
+          flex-direction: column;
+          gap: 10px;
+          margin: 10px 0;
+      }
+  
+      .social-icons a {
+          margin-right: 5px;
+      }
+  
+      .request-button {
+          margin-top: 10px;
+      }
+  }
+  
+
+
+.navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 150px;
+      background-color: whitesmoke;
+      padding: 0 25px;
+  }
+  
+  .logocontainer {
+      display: flex;
+      align-items: center;
+  }
+  
+  .logo {
+      width: 100px;
+      margin-right: 10px;
+  }
+  
+  .logotext {
+      font-weight: bold;
+      font-size: xx-large;
+  }
+  
+  .navitems {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+  }
+  
+  .navitems a {
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: large;
+      padding: 10px 15px;
+      transition: color 0.3s ease-in-out;
+  }
+  
+  .navitems a:hover {
+      color: darkorange;
+  }
+  
+  .Button {
+      background-color: darkorange;
+      color: white;
+      font-weight: bold;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out;
+  }
+  
+  .Button:hover {
+      background-color: orangered;
+  }
+  
+  .search {
+      width: 40px;
+      height: auto;
+      cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+      .navbar {
+          flex-direction: column;
+          align-items: flex-start;
+          height: auto;
+      }
+  
+      .navitems {
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 10px;
+          padding-top: 10px;
+      }
+  
+      .button {
+          width: 100%;
+          text-align: center;
+      }
+  }
+  
+
+.background {
+      background: linear-gradient(to bottom, #55566a, #282834);
+      padding: 50px 20px;
+      color: white;
+      text-align: center;
+  }
+  
+  .background h1, .background h2, .background p {
+      margin: 0 0 20px;
+  }
+  
+  .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+  }
+  
+  .but {
+      display: inline-block;
+      border: none;
+      background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+      border-radius: 10px;
+      color: white;
+      font-size: large;
+      padding: 10px 20px;
+      cursor: pointer;
+      transition: background 0.3s ease-in-out;
+  }
+  
+  .but:hover {
+      background-image: linear-gradient(to right, #b12a5b 0%, #cf556c 22%, #f99185 50%, #ff8c7f 78%, #ff867a 100%, #ff8177 100%);
+  }
+  
+.about {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 30px;
+      padding: 50px 60px;
+      align-items: center;
+  }
+  
+  .left {
+      flex: 1;
+      padding-left: 40px;
+  }
+  
+  .left h2, .left h3 {
+      margin: 0;
+      padding-bottom: 20px;
+  }
+  
+  .left h3 {
+      font-weight: 400;
+  }
+  
+  .aboutsec {
+      line-height: 1.6;
+      margin-bottom: 20px;
+  }
+  
+  .But {
+      display: inline-block;
+      border: none;
+      background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+      border-radius: 10px;
+      color: white;
+      font-size: large;
+      padding: 10px 20px;
+      cursor: pointer;
+      transition: background-image 0.3s ease-in-out;
+  }
+  
+  .But:hover {
+      background-image: linear-gradient(to right, #b12a5b 0%, #cf556c 22%, #f99185 50%, #ff8c7f 78%, #ff867a 100%, #ff8177 100%);
+  }
+  
+  .right {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      padding-right: 30px;
+  }
+  
+  .myimg {
+      max-width: 100%;
+      height: 400px;
+      border-radius: 10px;
+  }
+  
+
+#Service{
+      padding-left: 100px;
+      border-bottom:4px solid #f99185;
+}
+
+.images {
+      display: flex;
+      gap: 40px;
+      padding-left: 180px;
+  }
+  
+  .image {
+      position: relative;
+      width: 300px;  /* Ensure the width matches your image dimensions */
+      height: 300px; /* Ensure the height matches your image dimensions */
+  }
+  
+  .image img {
+      display: block;
+      width: 100%;  /* Ensure the image fills the container */
+      height: 100%; /* Ensure the image fills the container */
+  }
+  
+  .image figcaption {
+      position: absolute;
+      bottom: 0;     /* Position at the bottom of the image */
+      left: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better readability */
+      color: white;  /* Text color */
+      text-align: center;
+      padding: 10px 0;
+  }
+  
